@@ -1,5 +1,6 @@
-import '../styles/globals.css'
+//import '../styles/globals.css'
 import type { AppProps } from 'next/app'
+import '../styles/index.module.css'
 import { NextUIProvider } from '@nextui-org/react';
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -12,3 +13,4 @@ function MyApp({ Component, pageProps }: AppProps) {
 }
 
 export default MyApp
+ 
